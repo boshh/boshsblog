@@ -13,7 +13,7 @@
 <meta property="og:title" content="Categories">
 <meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="Bosh">
-<meta property="og:locale" content="zh-TW">
+<meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2018-11-13T09:26:42.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Categories">
@@ -63,6 +63,7 @@
           <h1 class="site-title">
             
               <a href="/boshsblog/" title="Bosh" rel="home"> Bosh </a>
+              <span style="font-size: 12px">616C6C2069206E65656420697320736C656570</span>
             
           </h1>
           
@@ -75,15 +76,13 @@
             <div class="clearfix sf-menu">
               <ul id="main-nav" class="menu sf-js-enabled sf-arrows"  style="touch-action: pan-y;">
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/">首頁</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/">Home</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/archives">彙整</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/archives">Archives</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/categories">分類</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/categories">Categories</a> </li>
                     
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/tags">標籤</a> </li>
-                    
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/about">關於</a> </li>
+                      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1663"> <a class="" href="/boshsblog/about">About</a> </li>
                     
               </ul>
             </div>
@@ -99,16 +98,64 @@
             
       <div id="content" class="outer">
         
-          <section id="main">categories
+          <section id="main">
 <div class="archives-wrap" style="margin: 0px;">
 	<div class="archives-category-wrap">
 		<blockquote>
+		
+		  <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/boshsblog/categories/DevNote/">DevNote</a><span class="category-list-count">1</span></li></ul>
 		
 		</blockquote>
 	</div>
 	
 	<!-- 分类列表 -->
+    
+    <div class="archives-wrap">
+        <div class="archive-year-wrap" id="DevNote">
+            <h1 class="archive-category">DevNote</h1>
+        </div>
+        <div class="archives">
+            
+                <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
 
+      <a href="/boshsblog/2018/11/14/hexo/" class="archive-article-date">
+		  <time datetime="2018-11-14T06:31:34.000Z" itemprop="datePublished">2018-11-14</time>
+	  </a>
+      
+
+  
+    <h1 class="thumb" itemprop="name">
+      <a class="archive-article-title" href="/boshsblog/2018/11/14/hexo/">Hexo</a>
+    </h1>
+  
+
+    </header>
+  </div>
+</article>
+                
+            
+        </div>
+    </div>
+    
+    <div class="archives-wrap">
+        <div class="archive-year-wrap" id="devnote">
+            <h1 class="archive-category">devnote</h1>
+        </div>
+        <div class="archives">
+            
+        </div>
+    </div>
+    
+    <div class="archives-wrap">
+        <div class="archive-year-wrap" id="test">
+            <h1 class="archive-category">test</h1>
+        </div>
+        <div class="archives">
+            
+        </div>
+    </div>
     
 </div></section>
           <aside id="sidebar">
@@ -119,15 +166,15 @@
     <form class="search-form">
         <label style="width: 72%;">
             <span class="screen-reader-text">Search for:</span>
-            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" 搜尋…" value="" name="s" title="Search for:">
+            <input type="search" class="search-field" style="height: 36px; width: 100%;" placeholder=" Search…" value="" name="s" title="Search for:">
         </label>
-        <input type="submit" class="search-form-submit" value="搜尋">
+        <input type="submit" class="search-form-submit" value="Search">
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="請輸入關鍵詞..."/>
+            <input type="text" class="ins-search-input" placeholder="Type something..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -139,11 +186,11 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '頁面',
-            CATEGORIES: '分類',
-            TAGS: '標籤',
-            UNTITLED: '(無標題)',
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/boshsblog/',
         CONTENT_URL: '/boshsblog/content.json',
@@ -158,15 +205,12 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">聯系我們</h3>
+    <h3 class="widget-title">Connect With Us</h3>
     <div class="widget widget_athemes_social_icons">
 
     	<ul class="clearfix widget-social-icons">   
     	
    			<li><a href="" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
-
-   		
-   			<li><a href="" title="Google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> 
 
    		
    			<li><a href="" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
@@ -193,7 +237,7 @@
     
   <div class="widget_athemes_tabs">
     <ul id="widget-tab" class="clearfix widget-tab-nav">
-      <li class="active"><a>最新文章</a></li>
+      <li class="active"><a>Recent Posts</a></li>
     </ul>
     <div class="widget">
       <ul>
@@ -204,8 +248,20 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
+              <h6 style="margin: 0;"><a href="/boshsblog/2018/11/14/hexo/">Hexo</a></h6>
+              <span>2018-11-14</span>
+            </div>
+
+          </li>
+        
+          <li class="clearfix">
+
+            
+              <div class="widget-entry-summary" style="margin: 0;">
+            
+
               <h6 style="margin: 0;"><a href="/boshsblog/2018/08/29/hello-world/">Hello World</a></h6>
-              <span>八月 29, 2018</span>
+              <span>2018-08-29</span>
             </div>
 
           </li>
@@ -216,19 +272,30 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/boshsblog/categories/DevNote/">DevNote</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
 
-  
-    
 
-  
-    
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">彙整</h3>
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/boshsblog/tags/hello-world/" style="font-size: 10px;">hello world</a> <a href="/boshsblog/tags/金魚腦/" style="font-size: 10px;">金魚腦</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
 
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/boshsblog/archives/2018/08/">八月 2018</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/boshsblog/archives/2018/11/">2018-11</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/boshsblog/archives/2018/08/">2018-08</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -246,8 +313,6 @@
     <a href="/boshsblog/archives" class="mobile-nav-link">Archives</a>
   
     <a href="/boshsblog/categories" class="mobile-nav-link">Categories</a>
-  
-    <a href="/boshsblog/tags" class="mobile-nav-link">Tags</a>
   
     <a href="/boshsblog/about" class="mobile-nav-link">About</a>
   
